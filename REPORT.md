@@ -41,7 +41,7 @@
 ### 3.2. Контроль доступа
 Скриншот настроек Branch Protection:
 
-![Branch protection](<img width="816" height="1174" alt="Image" src="https://github.com/user-attachments/assets/390a5bfd-bd97-431a-83c0-bcff3e336341" />)
+![Branch protection](branch-protection.png)
 
 Содержимое `.github/CODEOWNERS`:
 
@@ -57,11 +57,11 @@
 ### 4.2. Работа Quality Gate
 Красный статус (ошибки линтера):
 
-![Failed](<img width="779" height="373" alt="Image" src="https://github.com/user-attachments/assets/032e2b01-47c6-46a1-99c8-4e711f97d79b" />)
+![Failed](ci-failed.png)
 
 Зелёный статус (после исправления):
 
-![Passed](<img width="772" height="300" alt="Image" src="https://github.com/user-attachments/assets/37dc6453-f945-4ec2-bb32-a4a5b4280712" />)
+![Passed](ci-passed.png)
 
 Ошибки линтера: `F401 'os' imported but unused` и
 `E501 line too long (105 > 80 characters)`.
