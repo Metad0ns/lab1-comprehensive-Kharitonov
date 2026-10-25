@@ -36,7 +36,7 @@
 Модель ветвления: main → develop → feature/*. Все изменения
 попадают в develop только через Pull Request.
 
-Репозиторий: https://github.com/Metad0ns/lab1-comprehensive-Kharitonov.git
+Репозиторий: https://github.com/Metad0ns/lab1-comprehensive-Kharitonov
 
 ### 3.2. Контроль доступа
 Скриншот настроек Branch Protection:
@@ -52,7 +52,7 @@
 ## 4. Инструментальный контроль качества
 
 ### 4.1. Настройка CI/CD
-Файл пайплайна: https://github.com/USER/REPO/blob/develop/.github/workflows/qa.yml
+Файл пайплайна: https://github.com/Metad0ns/lab1-comprehensive-Kharitonov/blob/develop/.github/workflows/qa.yml
 
 ### 4.2. Работа Quality Gate
 Красный статус (ошибки линтера):
@@ -64,18 +64,18 @@
 ![Passed](<img width="772" height="300" alt="Image" src="https://github.com/user-attachments/assets/37dc6453-f945-4ec2-bb32-a4a5b4280712" />)
 
 Ошибки линтера: `F401 'os' imported but unused` и
-`E501 line too long (xx > 80 characters)`.
+`E501 line too long (105 > 80 characters)`.
 
 Исправление: удалён неиспользуемый импорт `os`, длинная
 строка сокращена до допустимой длины.
 
-Коммиты: ссылки на `test: add code with intentional errors`
-и `fix: resolve linter errors`.
+Коммиты: ссылки на `test: add code with intentional errors`https://github.com/Metad0ns/lab1-comprehensive-Kharitonov/pull/2/changes/783797f16a889239aca43749284ebd559a093f63
+и `fix: resolve linter errors`https://github.com/Metad0ns/lab1-comprehensive-Kharitonov/pull/2/changes/0f7bbd2d35bfd7a9a6ad5adadde68cfffe2da3c4.
 
 ## 5. Обратное проектирование и планирование ревью
 
 ### 5.1. Анализ алгоритма
-![UML Diagram](https://github.com/USER/REPO/blob/feature/review-plan/docs/uml_diagram.png?raw=true)
+![UML Diagram](https://github.com/Metad0ns/lab1-comprehensive-Kharitonov/blob/feature/review-plan/docs/uml_diagram.png?raw=true)
 
 Выявленные «запахи кода»:
 - Магические числа: 15000, 0.85, 500, 0.90, 0.97, 0.93, 0.70.
